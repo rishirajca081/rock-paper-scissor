@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eae2b7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 2%;
+}
+.container{
+    height: 20vmin;
+    margin-top: 25vmin;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    /* height: 30vmin; */
+    width: 70vmin;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 10vmin;
+    /* margin-top: 25vmin; */
+}
+#rock{
+    height: 60%;
+    width: 20%;
+    border-radius: 50%;
+    /* background-color: #83c5be; */
+    border: none;
+}
+#paper{
+    height: 60%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: #edf6f9;
+    border: none;
+}
+#scissor{
+    height: 60%;
+    width: 20%;
+    border-radius: 50%;
+    background-color: #ffddd2;
+    border: none;
+}
+.heading{
+    height: 10vmin;
+    background-color: rgb(44, 42, 42);
+}
+#paper:hover{
+    box-shadow: 10px 100px 1000px #006d77;
+    cursor: pointer;
+    opacity: .5;
+    border: 5px solid;
+}
+#rock:hover{
+    box-shadow: 10px 100px 1000px #006d77;
+    cursor: pointer;
+    opacity: .5;
+    border: 5px solid;
+}
+#scissor:hover{
+    box-shadow: 10px 100px 1000px #006d77;
+    cursor: pointer;
+    opacity: .5;
+    border: 5px solid;
+}
+.score-board{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10vmin;
+font-size: xx-large;
+}
+.result{
+    height: 7vmin;
+    width: 35vmin;
+    margin-top: 5%;
+    background-color: rgb(193, 175, 175);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+    font-size: xx-large;
+}
+/* .image{
+    object-fit: contain;
+} */
+#stone-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
